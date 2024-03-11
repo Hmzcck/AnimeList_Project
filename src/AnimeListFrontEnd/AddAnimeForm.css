@@ -1,0 +1,88 @@
+.anime-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.anime-form label {
+    margin-bottom: 10px;
+    font-weight: bold; 
+}
+
+.anime-form input,
+.anime-form select,
+.anime-form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.anime-form button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.anime-form button:hover {
+    background-color: #0056b3;
+}
+
+.scrollable-section {
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.checkbox-label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    flex-grow: 1;
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: darkred;
+}
+
+.anime-form textarea {
+    resize: vertical; 
+}

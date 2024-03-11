@@ -1,0 +1,67 @@
+/* RemoveAnimePage.css */
+
+.remove-anime-page {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    width: 50%;
+  }
+
+  .search-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .search-container input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+
+  .search-container button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .search-container button:hover {
+    background-color: #0056b3;
+  }
+
+  .anime-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .anime-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  .anime-item button {
+    padding: 8px 15px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .anime-item button:hover {
+    background-color: darkred;
+  }
+
+  .anime-item button:hover {
+    background-color: #820000;
+}

@@ -1,0 +1,98 @@
+/* Login.css */
+
+body {
+  background-color: #f7f7f7; /* A softer shade of grey */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+
+.form {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 16px; /* Larger text for readability */
+}
+
+.loginButton, .registerButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginButton:hover, .registerButton:hover {
+  background-color: #0056b3; /* A darker shade on hover */
+}
+.loginButton button:hover {
+    background-color: #ffeb3b;
+    color: #333;
+}
+.errorMessage {
+  color: #dc3545; /* Bootstrap danger color for errors */
+  font-size: 14px;
+  margin-top: 0.5rem;
+}
+
+.registerMessage {
+  color: #ffffff; /* Bootstrap secondary color */
+  font-size: 14px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.registerButton {
+  margin-top: 0.5rem;
+  background-color: #28a745; /* Bootstrap success color for register button */
+}
+
+.loginImage {
+  display: none; /* Hide the image on small screens */
+}
+
+/* Responsive design for larger screens */
+@media (min-width: 768px) {
+  .container {
+    border-radius: 8px;
+  }
+
+  .loginImage {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Additional styling for input focus */
+.inputField:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
